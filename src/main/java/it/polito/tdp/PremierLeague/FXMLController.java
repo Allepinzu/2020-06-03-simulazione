@@ -45,6 +45,7 @@ public class FXMLController {
     @FXML
     void doCreaGrafo(ActionEvent event) {
 
+    	this.model.createGraph(Double.parseDouble( this.txtGoals.getText()));
     }
 
     @FXML
